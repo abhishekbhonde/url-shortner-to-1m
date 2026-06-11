@@ -1,0 +1,39 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Go binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Go mod cache
+/vendor/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+*.o
+*.a
